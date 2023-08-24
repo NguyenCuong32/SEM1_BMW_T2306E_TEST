@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+
+    <head>
+      <div>
+        <title>Eric Hoang</title>
+      </div>
+    </head> 
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>Nested JavaScript Objects and Arrays.</h2>
+
+<p id="demo"></p>
+
+<script>
+let x = "";
+const Employee = {
+  person: 
+  [
+    {fullname: "Nguyễn Văn A",
+      age: 50,
+      basesalary: "120$",
+      workday: "22",
+      amount: "150$"},
+      {fullname: "Nguyễn Văn B",
+      age: 50,
+      basesalary: "120$",
+      workday: "22",
+      amount: "150$"},
+      {fullname: "Nguyễn Văn C",
+      age: 50,
+      basesalary: "120$",
+      workday: "22",
+      amount: "150$"}
+  ]
+}
+
+for (let i in Employee.person) {
+  x +="<h2>" + "Họ Và Tên: "  + Employee.person[i].fullname + "<br>" + "Tuổi: "  + Employee.person[i].age + "<br>" 
+  + "Lương cơ bản: "  + Employee.person[i].basesalary + "<br>" + "Số ngày công: "  + Employee.person[i].workday 
+   + "<br>" + "Tổng lương: "  + Employee.person[i].amount  + "<br>" + "<br>" + "</h2>"
+  }
+
+
+document.getElementById("demo").innerHTML = x;
+
+
+</script>
+
+</body>
+</html>
