@@ -97,6 +97,13 @@ button{
     justify-content: center;
     float: right;
 }
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
 .footer_text{
     font-weight: bold;
     font-size: 18px;
@@ -113,6 +120,7 @@ button{
     width: 100px;
     align-items: center;
     display: flex;
+    
 }
 
 .footer_border2{
