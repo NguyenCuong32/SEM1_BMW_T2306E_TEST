@@ -1,0 +1,70 @@
+header{
+    display: grid;
+grid-template-columns: 20% 80% 20%;
+}
+.header_1{
+    width: 100px;
+    background-color: #59D466;
+    height: 30px;
+    border-radius: 10px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+nav>div{
+    width: fit-content;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.product{
+    background-color: #81d189;
+}
+.user{
+    background-color: #c3dad0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+h2{
+    color: #81d189;
+    text-align: center;
+}
+footer{
+    display: flex;
+
+}
+.tieude{
+    margin-left: 200px;
+    background-color: #59D466;
+    width: fit-content;
+    padding: 10px;
+}
+section{
+    display: flex;
+
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+tr{
+    height: 20px;
+}
+td{
+    width: 40px;
+}
+.content{
+    margin-left: 30px;
+}
+.thongtin{
+    margin-left: 35px;
+}
