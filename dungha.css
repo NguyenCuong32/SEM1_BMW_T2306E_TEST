@@ -242,16 +242,12 @@ th, td {
 
 th {
     height: 50px;
-    background-color: #f2f2f2;
+    background-color: white;
     border: black solid;
     text-align: center;
     font-weight: bold;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-    font-weight: bold;
-}
-.a{
+.h{
     height: 150px;
 }
