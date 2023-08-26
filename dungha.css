@@ -238,6 +238,7 @@ th, td {
     padding: 8px;
     border: black solid;
     font-weight: bold;
+    font-size: 20;
 }
 
 th {
@@ -246,6 +247,15 @@ th {
     border: black solid;
     text-align: center;
     font-weight: bold;
+    font-size: 20;
+}
+th1 {
+    height: 50px;
+    background-color: white;
+    border: black solid;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20;
 }
 
 .h{
