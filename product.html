@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="examcss.css">
+    <title>Document</title>
+</head>
+<header>
+    <div style="font-weight: bold;">ABC Company</div>
+    <div style="font-style: italic; justify-self: right;">Welcome Admin.</div>
+    <div style="margin-top: 1pc;">
+        <a class="headerNAVproduct" href="product.html">Product</a>
+        <a class="headerNAVproduct" href="userinformation.html">User Information</a>
+    </div>
+</header>
+<body>
+    <h2 class="title" style="margin-top: 4pc;">Product Information</h2>
+
+        <table class="center" border="1" width="50%" height="50%">
+            <tr>
+                <th rowspan="2">Product code</th>
+                <th colspan="3">Product Information</th>
+                <th rowspan="2">Notes</th>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Amount</td>
+
+            <tr>
+                <td>123456</td>
+                <td>2000$</td>
+                <td>20</td>
+                <td>2</td>
+                <td>Stocks</td>
+            </tr>
+            <tr>
+                <td>4541213</td>
+                <td>2000$</td>
+                <td>20</td>
+                <td>2</td>
+                <td>Stocks</td>
+            </tr>
+            <tr>
+                <td>32452</td>
+                <td>2000$</td>
+                <td>20</td>
+                <td>2</td>
+                <td>Stocks</td>
+            </tr>
+            <tr>
+                <td>143232</td>
+                <td>2000$</td>
+                <td>20</td>
+                <td>2</td>
+                <td>Stocks</td>
+            </tr>
+            <tr>
+                <td>15342132</td>
+                <td>2000$</td>
+                <td>20</td>
+                <td>2</td>
+                <td>Stocks</td>
+            </tr>
+        </table>
+        <div >
+        <button onclick="showSubmitAlert()">Add new</button>
+        <button onclick="showsortalert()">Sort</button>
+    </div>
+</body>
+
+<footer>
+    <div class="squarelist2">
+        <div style="font-weight: bold; justify-self: left;">Address: số 8 Tôn Thất Thuyết</div>
+        <div style="justify-self: right;" class="fbzlcontainer">
+            <div style="font-weight: bold;" class="fbcontainer">Facebook</div>
+            <div style="font-weight: bold;" class="zlcontainer">Zalo</div>
+        </div>
+    </div>
+</footer>
+<script>
+     function showSubmitAlert()
+        {
+            alert("Are you sure add new product")
+        }
+</script>
+</html>
