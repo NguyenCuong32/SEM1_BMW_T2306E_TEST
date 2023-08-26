@@ -1,0 +1,134 @@
+header{
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#img{
+    width: 150px;
+    height: 60px;
+    background-color: #59D466;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header-middle{
+    font-size: medium;
+    margin-left: 30px;
+    padding: 20px;
+}
+.header-right{
+    position: absolute;
+    right: 0px;
+}
+
+section{
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.border1{
+    display: flex;
+    border: 10px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    background-color: #81D189;
+    margin: 20px;
+    position: static;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px #C3DAD0 ;
+    border-radius: 10px;
+}
+
+.border2{
+    display: flex;
+    border: 10px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    background-color: #81D189;
+    margin: 20px;
+    position: static;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.text{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    align-items:center;
+}
+table th td{
+    border: 1px;
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+content{
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img{
+    width: 170px;
+    height: 170px;
+    border-radius: 75px;
+    display: flex;
+    justify-content: left;
+    padding-right: 50px;
+}
+
+button{
+    align-items: right;
+    text-align: center;
+    justify-content: center;
+    float: right;
+}
+.footer_text{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer_border1{
+    border: none;
+    background-color: #6EBBA8;
+    font-weight: bold;
+    justify-content: center;
+    height: 50px;
+    text-align:center;
+    width: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.footer_border2{
+    border: none;
+    background-color: #7078C2;
+    font-weight: bold;
+    justify-content: center;
+    padding-left: 20px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.footer_border{
+    display: flex;
+    float: right;
+    width: 200px;
+}
