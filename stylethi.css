@@ -1,0 +1,177 @@
+.app {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: rgb(246, 236, 241);
+
+}
+
+header {
+    display: flex;
+    height: 40px;
+
+
+}
+
+.lefheader {
+    width: 120px;
+    line-height: 500px;
+    background-color: rgb(17, 107, 17);
+    border-radius: 10px;
+}
+
+.lefheader1 {
+    margin-left: 45px;
+    margin-top: -8px;
+
+
+}
+
+.righeader {
+    margin-left: 470px;
+    line-height: 40px;
+}
+
+.menu {
+    display: flex;
+    /* list-style: none; bỏ kiểu gạch chân */
+    text-align: center;
+    /*chữ ra giữa */
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.menu>a {
+    margin: 2px;
+    width: 200px;
+    line-height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+
+
+}
+
+.menu>a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu>a:hover {
+    /* HOVE LICH THI*/
+    background-color: rgb(89, 91, 148);
+    color: red;
+}
+
+
+.menu>.mh {
+    background-color: rgb(54, 106, 54);
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+
+}
+
+.menu>.lt {
+    background-color: rgb(47, 189, 127);
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    /*tạo bóng khun*/
+}
+
+.tieude {
+    color: blue;
+    text-align: center;
+
+    margin-top: 35px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: black solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+th, td {
+    height: 50px;
+    text-align: center;
+    padding: 8px;
+    border: black solid;
+    font-weight: bold;
+}
+
+th {
+    height: 50px;
+    background-color: #f2f2f2;
+    border: black solid;
+    text-align: center;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.a{
+    height: 150px;
+}
+
+.footerlt {
+    display: flex;
+    margin-top: 200px;
+}
+
+.diachi {
+    /* background-color: white; */
+    flex-grow: 200;
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.facebook {
+    background-color: aquamarine;
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    border-radius: 10px;
+    width: 150px;
+    flex-grow: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.zalo {
+    background-color: royalblue;
+    box-shadow: 0px 8px 9px 0px #5c3b5091;
+    border-radius: 10px;
+    width: 150px;
+    flex-grow: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+
+/*  PRODUC PRODUC PRODUC PRODUC  */
+
+.box{
+    height: 80px;
+    line-height: 70px;
+    padding-top: 10px;
+    display: flex;
+    width: 600px;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;   
+}
+header p{
+    margin-left: 500px;
+}
+table{
+    border: 1px solid;
+    width: 960px;
+}
