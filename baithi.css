@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#wraper{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+header .a{
+    background-color: #81D189;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px 20px;
+
+}
+header{
+    display: flex;
+    margin-bottom: 10px;
+}
+header h3{
+    margin-left: 30px;
+    font-size: 30px;
+}
+header p{
+    font-size: 20px;
+    display: flex;
+    margin-left: auto;
+    float: right;
+    text-align: end;
+}
+
+.nav {
+    list-style-type: none;
+    height: 70px;
+    display: flex;
+    font-size: 25px;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-product{
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #81D189; 
+    width: 200px; 
+    border-radius: 10px;
+}
+
+.nav-user{
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C3DAD0; 
+    width: 200px; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.head{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.main table tr th {
+    background-color: #D9D9D9;
+    border: 2px;
+    border-style: solid;
+    height: 40px
+}
+
+.main table tr td {
+    border: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    height: 40px
+}
+
+.add-new {
+    float: right;
+    background-color: #D9D9D9;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.sort {
+    float: right;
+    background-color: #D9D9D9;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+h4{
+    background-color: rgb(3, 75, 51);
+    width: 100px;
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+#footer{
+    margin-top: 70px;
+}
