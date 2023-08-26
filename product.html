@@ -92,6 +92,27 @@
     {
         alert("Are you sure add new product?");
     }
+    class product
+            {
+                constructor(code,price,quantity,amount,note)
+                {
+                    this.code = code;
+                    this.price = price;
+                    this.quantity = quantity;
+                    this.amount = amount;
+                    this.note = note;
+                }
+            }
+            var product_array = [];
+            for (let i = 1; i <= 10; i++) {
+                let code = prompt("Enter code of product ["+i+"]: ");
+                let price = prompt("Enter price of product ["+i+"]: ");
+                let quantity = prompt("Enter quantity of product ["+i+"]: ");
+                let amount = prompt("Enter amount of product ["+i+"]: ");
+                let note = prompt("Enter note of product ["+i+"]: ");
+                let product_temp = new product(name,age,address);
+                product_array.push(product_temp);
+            }
   </script>
 </body>
   <footer>
